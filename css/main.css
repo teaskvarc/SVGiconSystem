@@ -1,0 +1,116 @@
+[class*='icon-']{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.icon-bear{
+     fill: #333366;
+ }
+
+.icon-bear:hover, .icon-bear:focus{
+    fill: yellow;
+}
+.icon-bear-second{
+    fill: #448844;
+}
+.icon-home{
+    fill: #773344
+}
+.icon-home_second{
+    fill: #445566;
+    transform: rotate(45deg);
+    transform-origin: center center;
+}
+
+/* ANIMATION */
+
+.icon-home_third{
+    fill: orange;
+    animation: doRotate 10s infinite linear;
+}
+
+@keyframes doRotate {
+    to{
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes RotateLogo {
+    to{
+        transform: rotate(360deg);
+    }
+
+}
+
+/* LOGO */
+
+.inner-box{
+    fill: red;
+    transform-origin: center center;
+    animation: RotateLogo 5s infinite linear;
+    -webkit-animation: RotateLogo 5s infinite linear ;
+    -moz-transition: RotateLogo 5s infinite linear ;
+    -o-animation: RotateLogo 5s infinite linear ;
+
+}
+
+
+/* BUTTON */
+
+button{
+
+    border:0;
+    background: linear-gradient(to bottom, #444, #111);
+    border-radius: 10px;
+    padding: 10px 30px 12px;
+    outline: 0;
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+
+}
+
+button:hover, button:active{
+    background: black;
+}
+
+button svg{
+
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+button span{
+
+    font-size: 22px;
+    position: relative;
+    top: 4px;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
